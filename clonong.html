@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cloning1-project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="projet cloning 1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> …
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="page-top">
+
+    <header>
+
+        <!-- Navigation
+      ================================================== -->
+        <nav>
+            <div class="logo">
+                <img src="res/logo.jpg">
+            </div>
+            <ul>
+                <li>
+                    <a href="#A PROPOS DE NOUS  " class="active">A PROPOS DE NOUS</a>
+                </li>
+                <li>
+                    <a href="#SERVICES">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#myvideo">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- video
+    ================================================== -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <video class="col-md-12" controls controls autoplay id="myvideo">
+        <source src="res/video.mp4" type="video/mp4" width=600>
+        <source src="video.ogg" type="video/ogg">
+    </video>
+    <!-- Collapse
+    ================================================== -->
+    <div class="container">
+        <div class="jumbotron row" id="A PROPOS DE NOUS">
+            <h1 class="text-center">Welcome to Bugatti World</h1>
+            <div class="row">
+                <div class=" col-sm-12 col-md-4">
+                    <img src="res/veyron.jpg" width="100%" height="200px" alt="photo1">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target="#content">
+                            <center>Bugatti Veyron</center>
+                        </button>
+                        <div class="collapse" id="content">
+                            <div class="well">The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by
+                                the Volkswagen Group and manufactured in Molsheim, France, by Bugatti. It was named after
+                                the racing driver Pierre Veyron
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4" id="SERVICES">
+                    <img src="res/super.jpg" width="100%" height="200px" alt="photo1">
+
+
+                    <div class="col-md-12">
+                        <button class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target="#cont">
+                            <center>Bugatti Super Sport</center>
+                        </button>
+                        <div class="collapse" id="cont">
+                            <div class="well">
+                                The original version has a top speed of 430 km/h (270 mph). It was named Car of the Decade and best car award (2000–2009)
+                                by the BBC television programme Top Gear.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4">
+                    <img src="res/chiron.jpg" width="100%" alt="photo1" height="200px">
+
+
+                    <div class="col-md-12">
+                        <button class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target="#conten">
+                            <center>Bugatti Chiron</center>
+                        </button>
+                        <div class="collapse" id="conten">
+                            <div class="well">The Bugatti Chiron is a mid-engined two-seater sports car developed and manufactured in Molsheim,
+                                France, by Bugatti Automobiles S.A.S. as the successor to the Bugatti Veyron. The Chiron
+                                was first shown at the Geneva Motor Show on March 1, 2016. The car is based on the Bugatti
+                                Vision Gran Turismo concept car.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--tooltips-->
+        <a class="test" href="#" data-toggle="tooltip" data-placement="bottom" title="Automobiles Ettore Bugatti was a French car manufacturer of high-performance automobiles, founded in 1909 in the then German city of Molsheim, Alsace by Italian-born Ettore Bugatti. 
+        Bugatti cars were known for their design beauty (Ettore Bugatti was from a family of artists and considered himself
+         to be both an artist and constructor ">Discover our manufactory</a>
+
+        <!--portfolio-->
+
+        <div class="container" id="portfolio">
+
+            <section class="row">
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/1.jpg" width="100%" height="100%" id="image1" >
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/2.jpg" width="100%" height="80px" id="image2">
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/3.jpg" width="100%" height="20%" id="image3">
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/4.jpg" width="100%" height="20%" id="image4">
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/5.jpg" width="100%" height="80px" id="image5">
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2">
+                    <img src="res/6.jpg" width="100%" height="80px" id="image6">
+                </div>
+
+            </section>
+
+
+        </div>
+        <br>
+        <!--javascript-->
+        <div class="jumbotron row" id="myDIV">
+
+            <img class="col-sm-12 col-md-5 col-md-push-7" src="res/1.jpg" id="selectedImage">
+            <ul class="col-sm-12 col-md-7 col-md-pull-5">
+              
+            </ul>
+        </div>
+        <!--contact-->
+        <div class="jumbotron" id="contact">
+            <h1 class="text-center">Un message pour nous ?</h1>
+            <form class="row">
+                <div class="form-group col-lg-4">
+                    <input type="email" class="form-control" placeholder="Votre email">
+                </div>
+                <div class="form-group col-lg-8">
+                    <textarea class="form-control" rows="3" placeholder="Votre message"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                    <button type="submit" class="btn btn-default pull-right">Envoyer</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!--footer-->
+<!-- map http://www.embedgooglemap.co.uk/#! ++ https://www.latlong.net/-->
+<script  src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div  style='overflow:hidden;height:440px;width:700px;'>
+    <div id='gmap_canvas' style='height:440px;width:700px;' class="col-md-12" ></div>
+
+</div>
+    <footer id="footer" class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                    <div class="main-footer">
+
+                        <div class="social">
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                            <a href="https://www.linkedin.com/in/amin-amdouni-459106153/" class="fa fa-linkedin"></a>
+                            <a href="https://twitter.com" class="fa twitter fa-twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<script src="js/main.js"></script>
+
+</html>
